@@ -7,12 +7,21 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-    margin-right: 50px;
+    text-align: center;
+    margin-right: 15px;
     text-decoration: none;
     color: #ffffff; 
     font-weight: bold;
-    font-size: 35px;
+    font-size: 22px;
     transition: color 0.3s ease;
+
+    @media screen (min-width: 768px) {
+        font-size: 32px;
+    };
+
+    @media screen (min-width: 1280px) {
+        font-size: 38px;
+    };
 
     :hover {
         color: #9b59b6;

@@ -5,7 +5,6 @@ export const Header = styled.header`
   color: #000000;
   padding: 20px;
   text-align: center;
-  font-size: 24px;
   font-weight: bold;
   border-bottom: 2px solid #333333; 
 `; 
